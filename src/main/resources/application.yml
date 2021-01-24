@@ -1,0 +1,9 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: [client-id-da-sua-app-oauth-github]
+            client-secret: [client-secret-da-sua-app-oauth-github]
+            scope: read:user,public_repo
